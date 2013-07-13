@@ -1,0 +1,15 @@
+#comment.
+
+=group=noun
+#100 as a max quantity is probably too much.
+article{0,1}
+quantity|adj{0,100}
+noun|pronoun{1}
+noun{0,1}
+adj{0,2}
+=group=verb
+adv{0,100}
+verb{1}
+=group=preposition
+preposition{1}
+preposition{0,100}
